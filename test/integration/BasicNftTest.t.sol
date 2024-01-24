@@ -1,9 +1,9 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
-import {BasicNft} from "../src/BasicNft.sol";
+import {BasicNft} from "../../src/BasicNft.sol";
 import {Test} from "forge-std/Test.sol";
-import {DeployBasicNft} from "../script/DeployBasicNft.s.sol";
+import {DeployBasicNft} from "../../script/DeployBasicNft.s.sol";
 
 contract BasicNftTest is Test {
     string public constant PUG_URI =
