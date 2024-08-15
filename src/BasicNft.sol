@@ -12,6 +12,7 @@ contract BasicNft is ERC721 {
     }
 
     function mintNft(string memory _tokenUri) public {
+        // malicious uri possibility?
         s_tokenToUri[s_tokenCounter] = _tokenUri;
         _safeMint(msg.sender, s_tokenCounter);
         s_tokenCounter++;

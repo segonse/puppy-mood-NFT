@@ -6,10 +6,11 @@ remappings = [
     "@openzeppelin=lib/openzeppelin-contracts",
     "foundry-devops=lib/foundry-devops",
 ]
-ffi = true
+# ffi = true
 fs_permissions = [
     { access = "read", path = "./img/" },
     { access = "read", path = "./broadcast" },
 ]
 
+solc-version = "0.8.20"
 # See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
